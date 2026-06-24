@@ -155,3 +155,28 @@
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+<div id="publishModal" class="reveal-modal medium" data-reveal>
+  <h2>Publish this Trinket</h2>
+  <h3 class="subheader">Publishing gives your trinket its own clean, shareable web page.</h3>
+  <hr>
+  <div class="row">
+    <div class="small-12 columns">
+      <label for="publish-slug">Page name (used in the link)</label>
+      <div class="row collapse">
+        <div class="small-11 columns">
+          <input id="publish-slug" type="text" placeholder="my-trinket" />
+        </div>
+        <div class="small-1 columns">
+          <span class="postfix"><i id="slug-icon-status" class="fa"></i></span>
+        </div>
+      </div>
+      <div id="slug-status" class="alert-box alert hide"><span id="slug-status-text"></span></div>
+    </div>
+  </div>
+  <p>Your published link: <a id="published-url" href="" target="_blank"></a></p>
+  <hr>
+  <a id="publishTrinket" class="button primary"><i class="fa fa-book"></i> Publish</a>
+  <a id="unpublishTrinket" class="button caution disabled">Unpublish</a>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
